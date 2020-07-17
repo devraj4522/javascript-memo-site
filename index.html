@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Memo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input id="searchNote" class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-style" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container my-4">
+        <div class="row my-4">
+            <div class="col-md-8 mx-auto col-12 card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Add a Quick Memo</h5>
+                    <label for="basic-url" class="form-label">Title</label>
+                    <div class="input-group mb-3">
+                        <input id="title" type="text" class="form-control" placeholder="Enter Your Title" aria-describedby="basic-addon3">
+                    </div>
+                    <label for="basic-url" class="form-label">Note</label>
+                    <textarea id="text" placeholder="Enter Your Note" class="form-control mb-2" aria-label="With textarea"></textarea>
+                    <button id="addBtn" href="#" class="btn btn-primary ml-auto">Add Memo</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="showNotes" class="row mt-4">
+            
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+
+</body>
+</html>

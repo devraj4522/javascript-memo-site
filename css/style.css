@@ -1,0 +1,12 @@
+.bg-purple{
+    background-color: #00366b;
+}
+.btn-outline-style {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-outline-style:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
